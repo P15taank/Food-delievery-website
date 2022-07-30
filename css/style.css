@@ -1,0 +1,228 @@
+*
+{
+margin: 0px;
+padding: 0px;
+            
+}
+
+h1
+{
+  margin: 15px;
+  font-size: 30px;
+}
+
+/* Navigation Bar */
+#navbar
+{
+    position: relative;
+    height: 55px;
+    display: flex;
+align-items: center;
+background-color: rgba(197, 188, 188, 0.5);
+}
+
+/* Nav bar - Logo */
+
+#logo
+{
+    margin: 20px 25px;
+}
+
+#logo img
+{
+  height: 40px;
+  
+}
+
+/* Navigation Bar : List styling */
+
+
+#navbar ul
+{
+ display: flex;   /*arraange the ul items into one row when we apply the display property as flex */
+}
+
+#navbar ul li
+{
+    
+     list-style: none; /*This property remove the dots from lists */
+    
+}
+
+#navbar ul li :hover
+  {
+    background-color: white;  /*this property will apply when we hover on individual list items */
+    
+  }
+
+  /* apply all the propery on anchor tag */
+#navbar ul li a
+{
+    display: block;
+    text-decoration: none;
+    padding: 18px;
+    color: black;
+}
+
+/* home section */
+
+#home
+{
+  background: url('/img/bg1.jpg') no-repeat center center/cover;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  opacity: 0.89;
+  font-size: 2rem;
+}
+
+#home h1
+{
+  padding: 15px;
+}
+
+#home p
+{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.btn
+{
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(196 192 192);
+  cursor: pointer;
+}
+
+.btn:hover
+{
+  background-color: rgb(138, 138, 138);
+}
+
+/* services section */
+#services{
+  margin: 20px;
+  display: flex;
+}
+
+#services .box
+{
+  border: 2px solid brown;
+  margin: 64px;
+  padding: 15px;
+  border-radius: 30px;
+  height: 240px;
+  width: 355px;
+  background-color: rgb(243, 241, 241);
+  word-wrap: break-word;
+  
+}
+
+
+#services .box img
+{
+ height: 150px;
+ display: block;
+  margin: auto;
+}
+#services .box:hover
+{
+  transform: scale(1.2,1.2);
+  word-wrap: break-word;
+}
+
+/* utility classes */
+#h-primary
+{
+  font-size: 3rem;
+  padding: 12px;
+}
+#h-secondary
+{
+  font-size: 2.8rem;
+}
+.center
+{
+  text-align: center;
+  word-wrap: break-word;
+
+}
+
+/* client section styline */
+
+.clients
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: url('/img/bg.jpg') no-repeat center center/cover;
+  height: 200px;
+
+}
+.clients img
+{
+ height: 100%;
+ width: 100%;
+}
+.client-items
+{
+  margin: 20px;
+  padding: 20px
+}
+.client-items:hover
+{
+  transform: scale(1.2,1.2);
+}
+
+/* conatcat us section styling  */
+
+#contact-box
+{
+  display: flex;
+  
+  justify-content: center;
+  text-align: center;
+  background: url('/contact.jpg') no-repeat center center/cover;
+  height: 500px;
+  
+}
+
+.form-group
+{
+  font-size: 15px;
+  margin: 2px;
+  padding: 2px;
+}
+
+#contact-box input, #contact-box textarea
+{
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+#contact-box form{
+  width: 40%;
+  height: 20%;
+}
+
+#contact-box label{
+ font-size: 1.3rem;
+ font-family: 'Bree Serif', serif;
+
+}
+
+/* footer-section */
+
+footer{
+  background: black;
+  color: white;
+  padding: 9px 20px;
+}
